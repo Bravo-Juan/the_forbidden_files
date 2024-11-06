@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  font-style: italic;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 35px; 
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1em;
+  border: 1px solid black;
+}
+
+.navbar {
+  background-color:#ffffff!;
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 1.25rem; 
+  font-weight: bolder; 
+}
+
+.navbar-nav .nav-link {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 1rem; 
+  font-weight: bolder; 
+  color: #000000; 
+}
+
+.navbar-nav .nav-link.active {
+  border: 1px solid black; 
+  border-radius: 15px; 
+  padding: 4px 8px; 
+  background-color: #000000; 
+  color: #ffffff; 
+}
+
+.navbar-brand .bi-file-earmark-lock2 {
+  font-size: 1.7rem; 
+  position: relative;
+  top: 2px;
+}
+
+.navbar .form-control {
+  width: 100%; 
+  border: 1px solid black; 
+  border-radius: 20px;
+  padding: 0.5rem 1rem; 
+  background-color: #f5f5f5; 
+  color: #000000; 
+}
+
+/* Style the search button */
+.navbar .btn-outline-success {
+  border: 1px solid black;
+  color: #000000; 
+  padding: 0.5rem 1rem; 
+  background-color: #f5f5f5; 
+  border-radius: 20px;
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: #000000; 
+  color: #ffffff; 
+}
